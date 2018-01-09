@@ -1,0 +1,25 @@
+-chess game program
+       -not AI of any sort, but terminal representation of board, allowing two users to play a game of chess
+       -experimentation with classes: create chesspiece class, rook, knight, etc. subclasses, define moves for each
+       -represent chessboard with array, define allowed moves in terms of change in array position
+       -game done when king dead
+
+
+IDEAS:
+	*use command structure "queen to E5" or "PIECE TO LOCATION" -> or standard "Qe5"
+	*if more than one of a given piece exist, ask to type in location of desired piece
+	*include a command to display eliminated pieces
+
+chess board:
+
+black
+ abcdefgh
+8
+7
+6
+5
+4
+3
+2
+1
+white
